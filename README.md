@@ -1,9 +1,5 @@
 ```console
-$ mkdir build
-$ cd build/
-$ cmake ..
-$ make
-$ ./15puzzle
+$ bash script.sh
 ```
 
 Pictures can be changed or added adding the .bmp file in "Pictures" folder and
