@@ -9,6 +9,8 @@ sudo apt update
 sudo apt upgrade
 
 
+rm -r build
+
 mkdir build
 cd ./build
 cmake ../
