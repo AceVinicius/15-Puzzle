@@ -1,5 +1,5 @@
 ```console
-$ bash script.sh
+$ sudo bash script.sh
 ```
 
 Pictures can be changed or added adding the .bmp file in "Pictures" folder and
