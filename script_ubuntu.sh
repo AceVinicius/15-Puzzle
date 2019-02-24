@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+sudo apt install make
 sudo apt install cmake
 sudo apt install SDL2*
 
