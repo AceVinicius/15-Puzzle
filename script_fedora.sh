@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+sudo dnf install make
 sudo dnf install cmake
 sudo dnf install SDL2*
 
