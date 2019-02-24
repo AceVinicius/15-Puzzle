@@ -9,6 +9,8 @@ sudo dnf update
 sudo dnf upgrade
 
 
+rm -r build
+
 mkdir build
 cd ./build
 cmake ../
