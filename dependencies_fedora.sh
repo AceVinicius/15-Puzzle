@@ -1,19 +1,12 @@
 #!/bin/bash
 
-
-sudo dnf install make
+# Install dependencies
 sudo dnf install cmake
 sudo dnf install SDL2*
-
 
 sudo dnf update
 sudo dnf upgrade
 
 
-rm -r build
-
-mkdir build
-cd ./build
-cmake ../
-make
-./15puzzle
+# Compile and run 15 Puzzle
+bash run.sh
