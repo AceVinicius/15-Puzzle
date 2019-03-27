@@ -4,7 +4,7 @@ First run:
 ```console
 $ sudo bash dependencies_[ distribution ].sh
 ```
-Future compiles:
+Future runs, assuming all dependencies was successfully installed:
 ```console
 $ sudo bash run.sh
 ```
