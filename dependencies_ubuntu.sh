@@ -1,19 +1,12 @@
 #!/bin/bash
 
-
-sudo apt install make
+# Install dependencies
 sudo apt install cmake
 sudo apt install SDL2*
-
 
 sudo apt update
 sudo apt upgrade
 
 
-rm -r build
-
-mkdir build
-cd ./build
-cmake ../
-make
-./15puzzle
+# Compile and run 15 Puzzle
+bash run.sh
