@@ -2,12 +2,12 @@
 
 First run:
 ```console
-$ sudo bash dependencies_[ distribution ].sh
+$ sudo bash dependencies.sh
 ```
-Future runs, assuming all dependencies was successfully installed:
+Now, assuming all dependencies was successfully installed, run:
 ```console
-$ sudo bash run.sh
+$ bash run.sh
 ```
 
-Pictures can be changed or added adding the .bmp file in "Pictures" folder and
-adding it's name as an argument in ./15puzzle [ image-name.bmp ]
+Pictures can be changed or added adding the .bmp file in "Pictures" folder
+and adding it's name as an argument in ./15puzzle [ image-name.bmp ]
