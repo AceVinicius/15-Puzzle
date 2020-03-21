@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "./headers/game.h"
-#include "./headers/logic.h"
+#include "../lib/headers/game.h"
+#include "../lib/headers/logic.h"
 
 
 

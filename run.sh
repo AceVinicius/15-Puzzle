@@ -1,12 +1,13 @@
 #!/bin/bash
 
+cd lib
 # Remove, if already created build folder
-rm -r build
-
+rm -r ./cmake/build
 
 # Compile 15 Puzzle
-mkdir build
-cd ./build
+mkdir ./cmake/build
+cd ./cmake/build
 cmake ../
 make
-./15puzzle
+mv 15_Puzzle ../../../bin
+../../../bin/15_Puzzle

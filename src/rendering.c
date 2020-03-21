@@ -1,8 +1,8 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL2_gfxPrimitives.h>
 
-#include "./headers/game.h"
-#include "./headers/rendering.h"
+#include "../lib/headers/game.h"
+#include "../lib/headers/rendering.h"
 
 
 

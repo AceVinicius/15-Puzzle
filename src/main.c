@@ -18,6 +18,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
 #include <SDL2/SDL.h>
 // #include <SDL_ttf.h>
@@ -26,6 +27,7 @@
 #include "./headers/debug.h"
 #include "./headers/logic.h"
 #include "./headers/rendering.h"
+
 
 
 
@@ -143,9 +145,9 @@ main (int         argc,
 	game.score                             = 0;
 	game.state                             = WON_STATE;
 	switch_cell(&game,
-		        &row,
-		        &column,
-		        0);
+		          &row,
+		          &column,
+		          0);
 
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 	{
@@ -156,11 +158,13 @@ main (int         argc,
 	SDL_Surface *surface;
 	if (argv[ 1 ] == NULL)
 	{
-		surface = SDL_LoadBMP("./../Pictures/guitar.bmp");
+		surface = SDL_LoadBMP("../lib/pictures/guitar.bmp");
 	}
 	else
 	{
-		surface = SDL_LoadBMP(argv[ 1 ]);
+    char *str = "../lib/pictures/";
+    strcat( str, argv[ 1 ] );
+		surface = SDL_LoadBMP( str );
 	}
 	if (surface == NULL)
 	{
@@ -179,18 +183,18 @@ main (int         argc,
 	const int window_width  = image_width    * window_height / image_height;
 	SDL_Rect  window        =
 	{
-		      .w            = window_width  / N,
-		      .h            = window_height / N,
+    .w = window_width  / N,
+    .h = window_height / N,
 	};
-	SDL_Rect  image         =
+	SDL_Rect image =
 	{
-		      .w            = image_width  / N,
-		      .h            = image_height / N,
+	  .w = image_width  / N,
+	  .h = image_height / N,
 	};
 
-	SDL_Window *_window = SDL_CreateWindow("15-Puzzle",
+	SDL_Window *_window = SDL_CreateWindow("15 Puzzle",
 	                                       100,
-                                           100,
+                                         100,
 	                                       window_width,
 	                                       window_height,
 	                                       SDL_WINDOW_SHOWN);
