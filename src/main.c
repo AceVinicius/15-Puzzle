@@ -23,11 +23,10 @@
 #include <SDL2/SDL.h>
 // #include <SDL_ttf.h>
 
-#include "./headers/game.h"
-#include "./headers/debug.h"
-#include "./headers/logic.h"
-#include "./headers/rendering.h"
-
+#include "../lib/headers/game.h"
+#include "../lib/headers/debug.h"
+#include "../lib/headers/logic.h"
+#include "../lib/headers/rendering.h"
 
 
 
@@ -291,13 +290,13 @@ main (int         argc,
 		                       255);
 		SDL_RenderClear(renderer);
 		render_game(renderer,
-			        texture,
-			        &window,
-			        &image,
-					window_height,
-					window_width,
-					image_height,
-					image_width,
+			          texture,
+			          &window,
+			          &image,
+					      window_height,
+					      window_width,
+					      image_height,
+					      image_width,
 		            &game);
 		SDL_RenderPresent(renderer);
 
@@ -311,5 +310,6 @@ main (int         argc,
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(_window);
 	SDL_Quit();
+  
 	return EXIT_SUCCESS;
 }

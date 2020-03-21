@@ -1,0 +1,3 @@
+/home/viniciusfaguiar/Documents/C/15-Puzzle/lib/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/viniciusfaguiar/Documents/C/15-Puzzle/lib/cmake/build/CMakeFiles/15_Puzzle.dir
+/home/viniciusfaguiar/Documents/C/15-Puzzle/lib/cmake/build/CMakeFiles/edit_cache.dir

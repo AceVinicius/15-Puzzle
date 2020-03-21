@@ -1,0 +1,1 @@
+/usr/bin/cc  -lSDL2_image -O0 -Wall -Werror -fdump-rtl-expand   CMakeFiles/15_Puzzle.dir/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c.o CMakeFiles/15_Puzzle.dir/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c.o CMakeFiles/15_Puzzle.dir/home/viniciusfaguiar/Documents/C/15-Puzzle/src/rendering.c.o  -o 15_Puzzle  -L/usr/lib64  -lSDL2 -lSDL2_gfx -lSDL2 

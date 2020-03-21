@@ -18,6 +18,7 @@ set(SRCS
 )
 
 set(HEADERS
+  ../headers/debug.h
   ../headers/logic.h
   ../headers/rendering.h
   ../headers/game.h
