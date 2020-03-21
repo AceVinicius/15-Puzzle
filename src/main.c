@@ -157,7 +157,7 @@ main (int         argc,
 	SDL_Surface *surface;
 	if (argv[ 1 ] == NULL)
 	{
-		surface = SDL_LoadBMP("../lib/pictures/guitar.bmp");
+		surface = SDL_LoadBMP("../lib/pictures/flor.bmp");
 	}
 	else
 	{
@@ -310,6 +310,6 @@ main (int         argc,
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(_window);
 	SDL_Quit();
-  
+
 	return EXIT_SUCCESS;
 }

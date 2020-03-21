@@ -510,7 +510,7 @@ try_optimize_cfg iteration 2
         (reg:DI 145)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/rendering.c":30:6 -1
      (nil))
 (call_insn 114 113 115 7 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_RenderCopy") [flags 0x41]  <function_decl 0x7f480655a300 SDL_RenderCopy>) [0 SDL_RenderCopy S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_RenderCopy") [flags 0x41]  <function_decl 0x7eff52797300 SDL_RenderCopy>) [0 SDL_RenderCopy S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/rendering.c":30:6 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))

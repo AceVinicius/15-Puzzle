@@ -316,7 +316,7 @@ try_optimize_cfg iteration 2
         (reg:DI 83)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":31:6 -1
      (nil))
 (call_insn 8 7 9 2 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("count_cells") [flags 0x3]  <function_decl 0x7fe128406800 count_cells>) [0 count_cells S1 A8])
+        (call (mem:QI (symbol_ref:DI ("count_cells") [flags 0x3]  <function_decl 0x7f1a536ad800 count_cells>) [0 count_cells S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":31:6 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -717,7 +717,7 @@ Forwarding edge 26->27 to 28 failed.
 (insn 53 52 54 6 (set (reg:DI 5 di)
         (reg/f:DI 89 [ _8 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":60:4 -1
      (nil))
-(call_insn 54 53 55 6 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7fe128406c00 swap>) [0 swap S1 A8])
+(call_insn 54 53 55 6 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7f1a536adc00 swap>) [0 swap S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":60:4 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -983,7 +983,7 @@ Forwarding edge 26->27 to 28 failed.
 (insn 117 116 118 12 (set (reg:DI 5 di)
         (reg/f:DI 99 [ _18 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":69:4 -1
      (nil))
-(call_insn 118 117 119 12 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7fe128406c00 swap>) [0 swap S1 A8])
+(call_insn 118 117 119 12 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7f1a536adc00 swap>) [0 swap S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":69:4 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1249,7 +1249,7 @@ Forwarding edge 26->27 to 28 failed.
 (insn 181 180 182 18 (set (reg:DI 5 di)
         (reg/f:DI 109 [ _28 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":78:4 -1
      (nil))
-(call_insn 182 181 183 18 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7fe128406c00 swap>) [0 swap S1 A8])
+(call_insn 182 181 183 18 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7f1a536adc00 swap>) [0 swap S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":78:4 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1515,7 +1515,7 @@ Forwarding edge 26->27 to 28 failed.
 (insn 245 244 246 24 (set (reg:DI 5 di)
         (reg/f:DI 119 [ _38 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":87:4 -1
      (nil))
-(call_insn 246 245 247 24 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7fe128406c00 swap>) [0 swap S1 A8])
+(call_insn 246 245 247 24 (call (mem:QI (symbol_ref:DI ("swap") [flags 0x3]  <function_decl 0x7f1a536adc00 swap>) [0 swap S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":87:4 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1625,7 +1625,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":101:9 -1
      (nil))
 (call_insn 9 8 10 2 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("time") [flags 0x41]  <function_decl 0x7fe1283f6a00 time>) [0 time S1 A8])
+        (call (mem:QI (symbol_ref:DI ("time") [flags 0x41]  <function_decl 0x7f1a5369da00 time>) [0 time S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":101:9 -1
      (expr_list:REG_EH_REGION (const_int 0 [0])
         (nil))
@@ -1640,7 +1640,7 @@ try_optimize_cfg iteration 2
 (insn 12 11 13 2 (set (reg:SI 5 di)
         (reg:SI 83 [ _2 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":101:2 -1
      (nil))
-(call_insn 13 12 14 2 (call (mem:QI (symbol_ref:DI ("srand") [flags 0x41]  <function_decl 0x7fe1283cfc00 srand>) [0 srand S1 A8])
+(call_insn 13 12 14 2 (call (mem:QI (symbol_ref:DI ("srand") [flags 0x41]  <function_decl 0x7f1a53676c00 srand>) [0 srand S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":101:2 -1
      (expr_list:REG_EH_REGION (const_int 0 [0])
         (nil))
@@ -1658,7 +1658,7 @@ try_optimize_cfg iteration 2
 (code_label 39 16 17 4 28 (nil) [1 uses])
 (note 17 39 18 4 [bb 4] NOTE_INSN_BASIC_BLOCK)
 (call_insn 18 17 19 4 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("rand") [flags 0x41]  <function_decl 0x7fe1283cfb00 rand>) [0 rand S1 A8])
+        (call (mem:QI (symbol_ref:DI ("rand") [flags 0x41]  <function_decl 0x7f1a53676b00 rand>) [0 rand S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":107:9 -1
      (expr_list:REG_EH_REGION (const_int 0 [0])
         (nil))
@@ -1728,7 +1728,7 @@ try_optimize_cfg iteration 2
 (insn 34 33 35 4 (set (reg:DI 5 di)
         (reg:DI 93)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":104:3 -1
      (nil))
-(call_insn 35 34 36 4 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7fe128406e00 player_move>) [0 player_move S1 A8])
+(call_insn 35 34 36 4 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7f1a536ade00 player_move>) [0 player_move S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":104:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1795,7 +1795,7 @@ try_optimize_cfg iteration 2
 (insn 55 54 56 7 (set (reg:DI 5 di)
         (reg:DI 96)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":111:3 -1
      (nil))
-(call_insn 56 55 57 7 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7fe128406e00 player_move>) [0 player_move S1 A8])
+(call_insn 56 55 57 7 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7f1a536ade00 player_move>) [0 player_move S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":111:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1827,7 +1827,7 @@ try_optimize_cfg iteration 2
 (insn 63 62 64 7 (set (reg:DI 5 di)
         (reg:DI 99)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":115:3 -1
      (nil))
-(call_insn 64 63 65 7 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7fe128406e00 player_move>) [0 player_move S1 A8])
+(call_insn 64 63 65 7 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7f1a536ade00 player_move>) [0 player_move S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":115:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1994,7 +1994,7 @@ try_optimize_cfg iteration 2
 (insn 21 20 22 4 (set (reg:DI 5 di)
         (reg:DI 91)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":136:3 -1
      (nil))
-(call_insn 22 21 23 4 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7fe128406e00 player_move>) [0 player_move S1 A8])
+(call_insn 22 21 23 4 (call (mem:QI (symbol_ref:DI ("player_move") [flags 0x3]  <function_decl 0x7f1a536ade00 player_move>) [0 player_move S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":136:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2029,7 +2029,7 @@ try_optimize_cfg iteration 2
 (insn 29 28 30 5 (set (reg:DI 5 di)
         (reg:DI 93)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":142:4 -1
      (nil))
-(call_insn 30 29 31 5 (call (mem:QI (symbol_ref:DI ("game_over_condition") [flags 0x3]  <function_decl 0x7fe128406a00 game_over_condition>) [0 game_over_condition S1 A8])
+(call_insn 30 29 31 5 (call (mem:QI (symbol_ref:DI ("game_over_condition") [flags 0x3]  <function_decl 0x7f1a536ada00 game_over_condition>) [0 game_over_condition S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":142:4 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2107,7 +2107,7 @@ try_optimize_cfg iteration 2
 (insn 52 51 53 8 (set (reg:DI 5 di)
         (reg:DI 99)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":148:3 -1
      (nil))
-(call_insn 53 52 56 8 (call (mem:QI (symbol_ref:DI ("reset_game") [flags 0x3]  <function_decl 0x7fe128413000 reset_game>) [0 reset_game S1 A8])
+(call_insn 53 52 56 8 (call (mem:QI (symbol_ref:DI ("reset_game") [flags 0x3]  <function_decl 0x7f1a536ba000 reset_game>) [0 reset_game S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/logic.c":148:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))

@@ -599,7 +599,7 @@ try_optimize_cfg iteration 2
 (insn 92 91 93 9 (set (reg:DI 5 di)
         (reg:DI 158)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":146:2 -1
      (nil))
-(call_insn 93 92 94 9 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7ff1a0f64500 switch_cell>) [0 switch_cell S1 A8])
+(call_insn 93 92 94 9 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7f75cf7f1500 switch_cell>) [0 switch_cell S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":146:2 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -611,7 +611,7 @@ try_optimize_cfg iteration 2
         (const_int 62001 [0xf231])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":151:6 -1
      (nil))
 (call_insn 95 94 96 9 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_Init") [flags 0x41]  <function_decl 0x7ff1a0f5fa00 SDL_Init>) [0 SDL_Init S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_Init") [flags 0x41]  <function_decl 0x7f75cf7eca00 SDL_Init>) [0 SDL_Init S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":151:6 -1
      (nil)
     (expr_list:SI (use (reg:SI 5 di))
@@ -632,7 +632,7 @@ try_optimize_cfg iteration 2
  -> 111)
 (note 99 98 100 10 [bb 10] NOTE_INSN_BASIC_BLOCK)
 (call_insn 100 99 101 10 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7ff1a2bb1200 SDL_GetError>) [0 SDL_GetError S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7f75d143e200 SDL_GetError>) [0 SDL_GetError S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil)
     (nil))
@@ -640,13 +640,13 @@ try_optimize_cfg iteration 2
         (reg:DI 0 ax)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil))
 (insn 102 101 103 10 (set (reg/f:DI 85 [ stderr.1_4 ])
-        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7ff1b0334c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
+        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7f75debc1c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil))
 (insn 103 102 104 10 (set (reg:DI 1 dx)
         (reg/f:DI 84 [ _3 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil))
 (insn 104 103 105 10 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC0") [flags 0x2]  <var_decl 0x7ff1a0f90a20 *.LC0>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
+        (symbol_ref/f:DI ("*.LC0") [flags 0x2]  <var_decl 0x7f75cf81ca20 *.LC0>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil))
 (insn 105 104 106 10 (set (reg:DI 5 di)
         (reg/f:DI 85 [ stderr.1_4 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
@@ -655,7 +655,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil))
 (call_insn 107 106 108 10 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7ff1a2d76400 fprintf>) [0 __builtin_fprintf S1 A8])
+        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7f75d1603400 fprintf>) [0 __builtin_fprintf S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":153:3 -1
      (nil)
     (expr_list (use (reg:QI 0 ax))
@@ -703,13 +703,13 @@ try_optimize_cfg iteration 2
  -> 130)
 (note 118 117 119 12 [bb 12] NOTE_INSN_BASIC_BLOCK)
 (insn 119 118 120 12 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC1") [flags 0x2]  <var_decl 0x7ff1a0f90ab0 *.LC1>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
+        (symbol_ref/f:DI ("*.LC1") [flags 0x2]  <var_decl 0x7f75cf81cab0 *.LC1>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
      (nil))
 (insn 120 119 121 12 (set (reg:DI 5 di)
-        (symbol_ref/f:DI ("*.LC2") [flags 0x2]  <var_decl 0x7ff1a0f90b40 *.LC2>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
+        (symbol_ref/f:DI ("*.LC2") [flags 0x2]  <var_decl 0x7f75cf81cb40 *.LC2>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
      (nil))
 (call_insn 121 120 122 12 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_RWFromFile") [flags 0x41]  <function_decl 0x7ff1a2bbfc00 SDL_RWFromFile>) [0 SDL_RWFromFile S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_RWFromFile") [flags 0x41]  <function_decl 0x7f75d144cc00 SDL_RWFromFile>) [0 SDL_RWFromFile S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -725,7 +725,7 @@ try_optimize_cfg iteration 2
         (reg/f:DI 88 [ _7 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
      (nil))
 (call_insn 125 124 126 12 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_LoadBMP_RW") [flags 0x41]  <function_decl 0x7ff1a12e4700 SDL_LoadBMP_RW>) [0 SDL_LoadBMP_RW S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_LoadBMP_RW") [flags 0x41]  <function_decl 0x7f75cfb71700 SDL_LoadBMP_RW>) [0 SDL_LoadBMP_RW S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":160:13 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -747,7 +747,7 @@ try_optimize_cfg iteration 2
 (note 131 130 132 13 [bb 13] NOTE_INSN_BASIC_BLOCK)
 (insn 132 131 133 13 (set (mem/f/c:DI (plus:DI (reg/f:DI 77 virtual-stack-vars)
                 (const_int -32 [0xffffffffffffffe0])) [4 str+0 S8 A64])
-        (symbol_ref/f:DI ("*.LC3") [flags 0x2]  <var_decl 0x7ff1a0f90bd0 *.LC3>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":164:11 -1
+        (symbol_ref/f:DI ("*.LC3") [flags 0x2]  <var_decl 0x7f75cf81cbd0 *.LC3>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":164:11 -1
      (nil))
 (insn 133 132 134 13 (set (reg/f:DI 161)
         (mem/f/c:DI (plus:DI (reg/f:DI 77 virtual-stack-vars)
@@ -777,7 +777,7 @@ try_optimize_cfg iteration 2
         (reg:DI 162)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":165:5 -1
      (nil))
 (call_insn 139 138 140 13 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("strcat") [flags 0x41]  <function_decl 0x7ff1a2d71200 strcat>) [0 __builtin_strcat S1 A8])
+        (call (mem:QI (symbol_ref:DI ("strcat") [flags 0x41]  <function_decl 0x7f75d15fe200 strcat>) [0 __builtin_strcat S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":165:5 -1
      (expr_list:REG_EH_REGION (const_int 0 [0])
         (nil))
@@ -791,13 +791,13 @@ try_optimize_cfg iteration 2
                 (const_int -32 [0xffffffffffffffe0])) [4 str+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil))
 (insn 141 140 142 13 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC1") [flags 0x2]  <var_decl 0x7ff1a0f90ab0 *.LC1>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
+        (symbol_ref/f:DI ("*.LC1") [flags 0x2]  <var_decl 0x7f75cf81cab0 *.LC1>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil))
 (insn 142 141 143 13 (set (reg:DI 5 di)
         (reg:DI 163)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil))
 (call_insn 143 142 144 13 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_RWFromFile") [flags 0x41]  <function_decl 0x7ff1a2bbfc00 SDL_RWFromFile>) [0 SDL_RWFromFile S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_RWFromFile") [flags 0x41]  <function_decl 0x7f75d144cc00 SDL_RWFromFile>) [0 SDL_RWFromFile S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -813,7 +813,7 @@ try_optimize_cfg iteration 2
         (reg/f:DI 91 [ _10 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil))
 (call_insn 147 146 148 13 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_LoadBMP_RW") [flags 0x41]  <function_decl 0x7ff1a12e4700 SDL_LoadBMP_RW>) [0 SDL_LoadBMP_RW S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_LoadBMP_RW") [flags 0x41]  <function_decl 0x7f75cfb71700 SDL_LoadBMP_RW>) [0 SDL_LoadBMP_RW S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":166:13 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -842,7 +842,7 @@ try_optimize_cfg iteration 2
  -> 167)
 (note 154 153 155 15 [bb 15] NOTE_INSN_BASIC_BLOCK)
 (call_insn 155 154 156 15 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7ff1a2bb1200 SDL_GetError>) [0 SDL_GetError S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7f75d143e200 SDL_GetError>) [0 SDL_GetError S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil)
     (nil))
@@ -850,13 +850,13 @@ try_optimize_cfg iteration 2
         (reg:DI 0 ax)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil))
 (insn 157 156 158 15 (set (reg/f:DI 93 [ stderr.2_12 ])
-        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7ff1b0334c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
+        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7f75debc1c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil))
 (insn 158 157 159 15 (set (reg:DI 1 dx)
         (reg/f:DI 92 [ _11 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil))
 (insn 159 158 160 15 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC4") [flags 0x2]  <var_decl 0x7ff1a0f90c60 *.LC4>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
+        (symbol_ref/f:DI ("*.LC4") [flags 0x2]  <var_decl 0x7f75cf81cc60 *.LC4>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil))
 (insn 160 159 161 15 (set (reg:DI 5 di)
         (reg/f:DI 93 [ stderr.2_12 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
@@ -865,7 +865,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil))
 (call_insn 162 161 163 15 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7ff1a2d76400 fprintf>) [0 __builtin_fprintf S1 A8])
+        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7f75d1603400 fprintf>) [0 __builtin_fprintf S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":170:3 -1
      (nil)
     (expr_list (use (reg:QI 0 ax))
@@ -873,7 +873,7 @@ try_optimize_cfg iteration 2
             (expr_list:DI (use (reg:DI 4 si))
                 (expr_list:DI (use (reg:DI 1 dx))
                     (nil))))))
-(call_insn 163 162 164 15 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7ff1a0f5fe00 SDL_Quit>) [0 SDL_Quit S1 A8])
+(call_insn 163 162 164 15 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7f75cf7ece00 SDL_Quit>) [0 SDL_Quit S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":171:3 -1
      (nil)
     (nil))
@@ -901,7 +901,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":176:2 -1
      (nil))
 (call_insn 172 171 173 16 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetCurrentDisplayMode") [flags 0x41]  <function_decl 0x7ff1a1300300 SDL_GetCurrentDisplayMode>) [0 SDL_GetCurrentDisplayMode S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetCurrentDisplayMode") [flags 0x41]  <function_decl 0x7f75cfb8d300 SDL_GetCurrentDisplayMode>) [0 SDL_GetCurrentDisplayMode S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":176:2 -1
      (nil)
     (expr_list:SI (use (reg:SI 5 di))
@@ -1173,10 +1173,10 @@ try_optimize_cfg iteration 2
         (const_int 100 [0x64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":194:24 -1
      (nil))
 (insn 238 237 239 16 (set (reg:DI 5 di)
-        (symbol_ref/f:DI ("*.LC6") [flags 0x2]  <var_decl 0x7ff1a0f90cf0 *.LC6>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":194:24 -1
+        (symbol_ref/f:DI ("*.LC6") [flags 0x2]  <var_decl 0x7f75cf81ccf0 *.LC6>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":194:24 -1
      (nil))
 (call_insn 239 238 240 16 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_CreateWindow") [flags 0x41]  <function_decl 0x7ff1a1300900 SDL_CreateWindow>) [0 SDL_CreateWindow S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_CreateWindow") [flags 0x41]  <function_decl 0x7f75cfb8d900 SDL_CreateWindow>) [0 SDL_CreateWindow S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":194:24 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1207,7 +1207,7 @@ try_optimize_cfg iteration 2
  -> 260)
 (note 244 243 245 17 [bb 17] NOTE_INSN_BASIC_BLOCK)
 (call_insn 245 244 246 17 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7ff1a2bb1200 SDL_GetError>) [0 SDL_GetError S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7f75d143e200 SDL_GetError>) [0 SDL_GetError S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil)
     (nil))
@@ -1215,13 +1215,13 @@ try_optimize_cfg iteration 2
         (reg:DI 0 ax)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil))
 (insn 247 246 248 17 (set (reg/f:DI 103 [ stderr.3_22 ])
-        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7ff1b0334c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
+        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7f75debc1c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil))
 (insn 248 247 249 17 (set (reg:DI 1 dx)
         (reg/f:DI 102 [ _21 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil))
 (insn 249 248 250 17 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC7") [flags 0x2]  <var_decl 0x7ff1a0f90d80 *.LC7>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
+        (symbol_ref/f:DI ("*.LC7") [flags 0x2]  <var_decl 0x7f75cf81cd80 *.LC7>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil))
 (insn 250 249 251 17 (set (reg:DI 5 di)
         (reg/f:DI 103 [ stderr.3_22 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
@@ -1230,7 +1230,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil))
 (call_insn 252 251 253 17 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7ff1a2d76400 fprintf>) [0 __builtin_fprintf S1 A8])
+        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7f75d1603400 fprintf>) [0 __builtin_fprintf S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":202:3 -1
      (nil)
     (expr_list (use (reg:QI 0 ax))
@@ -1245,12 +1245,12 @@ try_optimize_cfg iteration 2
 (insn 254 253 255 17 (set (reg:DI 5 di)
         (reg:DI 195)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":203:3 -1
      (nil))
-(call_insn 255 254 256 17 (call (mem:QI (symbol_ref:DI ("SDL_FreeSurface") [flags 0x41]  <function_decl 0x7ff1a12e4300 SDL_FreeSurface>) [0 SDL_FreeSurface S1 A8])
+(call_insn 255 254 256 17 (call (mem:QI (symbol_ref:DI ("SDL_FreeSurface") [flags 0x41]  <function_decl 0x7f75cfb71300 SDL_FreeSurface>) [0 SDL_FreeSurface S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":203:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
         (nil)))
-(call_insn 256 255 257 17 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7ff1a0f5fe00 SDL_Quit>) [0 SDL_Quit S1 A8])
+(call_insn 256 255 257 17 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7f75cf7ece00 SDL_Quit>) [0 SDL_Quit S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":204:3 -1
      (nil)
     (nil))
@@ -1278,7 +1278,7 @@ try_optimize_cfg iteration 2
         (reg:DI 196)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":208:27 -1
      (nil))
 (call_insn 266 265 267 18 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_CreateRenderer") [flags 0x41]  <function_decl 0x7ff1a0f39100 SDL_CreateRenderer>) [0 SDL_CreateRenderer S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_CreateRenderer") [flags 0x41]  <function_decl 0x7f75cf7c6100 SDL_CreateRenderer>) [0 SDL_CreateRenderer S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":208:27 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1306,7 +1306,7 @@ try_optimize_cfg iteration 2
  -> 290)
 (note 271 270 272 19 [bb 19] NOTE_INSN_BASIC_BLOCK)
 (call_insn 272 271 273 19 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7ff1a2bb1200 SDL_GetError>) [0 SDL_GetError S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7f75d143e200 SDL_GetError>) [0 SDL_GetError S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil)
     (nil))
@@ -1314,13 +1314,13 @@ try_optimize_cfg iteration 2
         (reg:DI 0 ax)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil))
 (insn 274 273 275 19 (set (reg/f:DI 105 [ stderr.4_24 ])
-        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7ff1b0334c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
+        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7f75debc1c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil))
 (insn 275 274 276 19 (set (reg:DI 1 dx)
         (reg/f:DI 104 [ _23 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil))
 (insn 276 275 277 19 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC8") [flags 0x2]  <var_decl 0x7ff1a0f90e10 *.LC8>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
+        (symbol_ref/f:DI ("*.LC8") [flags 0x2]  <var_decl 0x7f75cf81ce10 *.LC8>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil))
 (insn 277 276 278 19 (set (reg:DI 5 di)
         (reg/f:DI 105 [ stderr.4_24 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
@@ -1329,7 +1329,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil))
 (call_insn 279 278 280 19 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7ff1a2d76400 fprintf>) [0 __builtin_fprintf S1 A8])
+        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7f75d1603400 fprintf>) [0 __builtin_fprintf S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":214:3 -1
      (nil)
     (expr_list (use (reg:QI 0 ax))
@@ -1344,7 +1344,7 @@ try_optimize_cfg iteration 2
 (insn 281 280 282 19 (set (reg:DI 5 di)
         (reg:DI 198)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":215:3 -1
      (nil))
-(call_insn 282 281 283 19 (call (mem:QI (symbol_ref:DI ("SDL_FreeSurface") [flags 0x41]  <function_decl 0x7ff1a12e4300 SDL_FreeSurface>) [0 SDL_FreeSurface S1 A8])
+(call_insn 282 281 283 19 (call (mem:QI (symbol_ref:DI ("SDL_FreeSurface") [flags 0x41]  <function_decl 0x7f75cfb71300 SDL_FreeSurface>) [0 SDL_FreeSurface S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":215:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1356,12 +1356,12 @@ try_optimize_cfg iteration 2
 (insn 284 283 285 19 (set (reg:DI 5 di)
         (reg:DI 199)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":216:3 -1
      (nil))
-(call_insn 285 284 286 19 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7ff1a130f400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
+(call_insn 285 284 286 19 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7f75cfb9c400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":216:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
         (nil)))
-(call_insn 286 285 287 19 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7ff1a0f5fe00 SDL_Quit>) [0 SDL_Quit S1 A8])
+(call_insn 286 285 287 19 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7f75cf7ece00 SDL_Quit>) [0 SDL_Quit S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":217:3 -1
      (nil)
     (nil))
@@ -1383,7 +1383,7 @@ try_optimize_cfg iteration 2
         (reg:DI 200)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":222:3 -1
      (nil))
 (call_insn 294 293 295 20 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_RenderClear") [flags 0x41]  <function_decl 0x7ff1a0f46800 SDL_RenderClear>) [0 SDL_RenderClear S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_RenderClear") [flags 0x41]  <function_decl 0x7f75cf7d3800 SDL_RenderClear>) [0 SDL_RenderClear S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":222:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1403,7 +1403,7 @@ try_optimize_cfg iteration 2
         (reg:DI 202)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":225:25 -1
      (nil))
 (call_insn 299 298 300 20 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_CreateTextureFromSurface") [flags 0x41]  <function_decl 0x7ff1a0f39700 SDL_CreateTextureFromSurface>) [0 SDL_CreateTextureFromSurface S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_CreateTextureFromSurface") [flags 0x41]  <function_decl 0x7f75cf7c6700 SDL_CreateTextureFromSurface>) [0 SDL_CreateTextureFromSurface S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":225:25 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1430,7 +1430,7 @@ try_optimize_cfg iteration 2
  -> 323)
 (note 304 303 305 21 [bb 21] NOTE_INSN_BASIC_BLOCK)
 (call_insn 305 304 306 21 (set (reg:DI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7ff1a2bb1200 SDL_GetError>) [0 SDL_GetError S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_GetError") [flags 0x41]  <function_decl 0x7f75d143e200 SDL_GetError>) [0 SDL_GetError S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil)
     (nil))
@@ -1438,13 +1438,13 @@ try_optimize_cfg iteration 2
         (reg:DI 0 ax)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil))
 (insn 307 306 308 21 (set (reg/f:DI 107 [ stderr.5_26 ])
-        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7ff1b0334c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
+        (mem/f/c:DI (symbol_ref:DI ("stderr") [flags 0x40]  <var_decl 0x7f75debc1c60 stderr>) [45 stderr+0 S8 A64])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil))
 (insn 308 307 309 21 (set (reg:DI 1 dx)
         (reg/f:DI 106 [ _25 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil))
 (insn 309 308 310 21 (set (reg:DI 4 si)
-        (symbol_ref/f:DI ("*.LC9") [flags 0x2]  <var_decl 0x7ff1a0f90ea0 *.LC9>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
+        (symbol_ref/f:DI ("*.LC9") [flags 0x2]  <var_decl 0x7f75cf81cea0 *.LC9>)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil))
 (insn 310 309 311 21 (set (reg:DI 5 di)
         (reg/f:DI 107 [ stderr.5_26 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
@@ -1453,7 +1453,7 @@ try_optimize_cfg iteration 2
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil))
 (call_insn 312 311 313 21 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7ff1a2d76400 fprintf>) [0 __builtin_fprintf S1 A8])
+        (call (mem:QI (symbol_ref:DI ("fprintf") [flags 0x41]  <function_decl 0x7f75d1603400 fprintf>) [0 __builtin_fprintf S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":230:3 -1
      (nil)
     (expr_list (use (reg:QI 0 ax))
@@ -1468,7 +1468,7 @@ try_optimize_cfg iteration 2
 (insn 314 313 315 21 (set (reg:DI 5 di)
         (reg:DI 204)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":231:3 -1
      (nil))
-(call_insn 315 314 316 21 (call (mem:QI (symbol_ref:DI ("SDL_DestroyRenderer") [flags 0x41]  <function_decl 0x7ff1a0f52000 SDL_DestroyRenderer>) [0 SDL_DestroyRenderer S1 A8])
+(call_insn 315 314 316 21 (call (mem:QI (symbol_ref:DI ("SDL_DestroyRenderer") [flags 0x41]  <function_decl 0x7f75cf7df000 SDL_DestroyRenderer>) [0 SDL_DestroyRenderer S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":231:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1480,12 +1480,12 @@ try_optimize_cfg iteration 2
 (insn 317 316 318 21 (set (reg:DI 5 di)
         (reg:DI 205)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":232:3 -1
      (nil))
-(call_insn 318 317 319 21 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7ff1a130f400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
+(call_insn 318 317 319 21 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7f75cfb9c400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":232:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
         (nil)))
-(call_insn 319 318 320 21 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7ff1a0f5fe00 SDL_Quit>) [0 SDL_Quit S1 A8])
+(call_insn 319 318 320 21 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7f75cf7ece00 SDL_Quit>) [0 SDL_Quit S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":233:3 -1
      (nil)
     (nil))
@@ -1771,7 +1771,7 @@ try_optimize_cfg iteration 2
 (insn 412 411 413 43 (set (reg:DI 5 di)
         (reg:DI 208)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":254:8 -1
      (nil))
-(call_insn 413 412 414 43 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7ff1a0f64500 switch_cell>) [0 switch_cell S1 A8])
+(call_insn 413 412 414 43 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7f75cf7f1500 switch_cell>) [0 switch_cell S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":254:8 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1819,7 +1819,7 @@ try_optimize_cfg iteration 2
 (insn 424 423 425 44 (set (reg:DI 5 di)
         (reg:DI 211)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":261:8 -1
      (nil))
-(call_insn 425 424 426 44 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7ff1a0f64500 switch_cell>) [0 switch_cell S1 A8])
+(call_insn 425 424 426 44 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7f75cf7f1500 switch_cell>) [0 switch_cell S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":261:8 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1867,7 +1867,7 @@ try_optimize_cfg iteration 2
 (insn 436 435 437 45 (set (reg:DI 5 di)
         (reg:DI 214)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":268:8 -1
      (nil))
-(call_insn 437 436 438 45 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7ff1a0f64500 switch_cell>) [0 switch_cell S1 A8])
+(call_insn 437 436 438 45 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7f75cf7f1500 switch_cell>) [0 switch_cell S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":268:8 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1915,7 +1915,7 @@ try_optimize_cfg iteration 2
 (insn 448 447 449 46 (set (reg:DI 5 di)
         (reg:DI 217)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":275:8 -1
      (nil))
-(call_insn 449 448 450 46 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7ff1a0f64500 switch_cell>) [0 switch_cell S1 A8])
+(call_insn 449 448 450 46 (call (mem:QI (symbol_ref:DI ("switch_cell") [flags 0x41]  <function_decl 0x7f75cf7f1500 switch_cell>) [0 switch_cell S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":275:8 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1936,7 +1936,7 @@ try_optimize_cfg iteration 2
         (reg:DI 218)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":240:10 -1
      (nil))
 (call_insn 454 453 455 47 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_PollEvent") [flags 0x41]  <function_decl 0x7ff1a0f07500 SDL_PollEvent>) [0 SDL_PollEvent S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_PollEvent") [flags 0x41]  <function_decl 0x7f75cf794500 SDL_PollEvent>) [0 SDL_PollEvent S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":240:10 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1976,7 +1976,7 @@ try_optimize_cfg iteration 2
         (reg:DI 219)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":286:3 -1
      (nil))
 (call_insn 466 465 467 48 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_SetRenderDrawColor") [flags 0x41]  <function_decl 0x7ff1a0f46400 SDL_SetRenderDrawColor>) [0 SDL_SetRenderDrawColor S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_SetRenderDrawColor") [flags 0x41]  <function_decl 0x7f75cf7d3400 SDL_SetRenderDrawColor>) [0 SDL_SetRenderDrawColor S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":286:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -1993,7 +1993,7 @@ try_optimize_cfg iteration 2
         (reg:DI 220)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":291:3 -1
      (nil))
 (call_insn 469 468 470 48 (set (reg:SI 0 ax)
-        (call (mem:QI (symbol_ref:DI ("SDL_RenderClear") [flags 0x41]  <function_decl 0x7ff1a0f46800 SDL_RenderClear>) [0 SDL_RenderClear S1 A8])
+        (call (mem:QI (symbol_ref:DI ("SDL_RenderClear") [flags 0x41]  <function_decl 0x7f75cf7d3800 SDL_RenderClear>) [0 SDL_RenderClear S1 A8])
             (const_int 0 [0]))) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":291:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2085,7 +2085,7 @@ try_optimize_cfg iteration 2
 (insn 488 487 489 48 (set (reg:DI 5 di)
         (reg:DI 226)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":292:3 -1
      (nil))
-(call_insn 489 488 490 48 (call (mem:QI (symbol_ref:DI ("render_game") [flags 0x41]  <function_decl 0x7ff1a0f64600 render_game>) [0 render_game S1 A8])
+(call_insn 489 488 490 48 (call (mem:QI (symbol_ref:DI ("render_game") [flags 0x41]  <function_decl 0x7f75cf7f1600 render_game>) [0 render_game S1 A8])
         (const_int 32 [0x20])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":292:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2110,7 +2110,7 @@ try_optimize_cfg iteration 2
 (insn 492 491 493 48 (set (reg:DI 5 di)
         (reg:DI 230)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":301:3 -1
      (nil))
-(call_insn 493 492 494 48 (call (mem:QI (symbol_ref:DI ("SDL_RenderPresent") [flags 0x41]  <function_decl 0x7ff1a0f4be00 SDL_RenderPresent>) [0 SDL_RenderPresent S1 A8])
+(call_insn 493 492 494 48 (call (mem:QI (symbol_ref:DI ("SDL_RenderPresent") [flags 0x41]  <function_decl 0x7f75cf7d8e00 SDL_RenderPresent>) [0 SDL_RenderPresent S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":301:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2125,7 +2125,7 @@ try_optimize_cfg iteration 2
 (insn 495 494 496 48 (set (reg:DI 5 di)
         (reg:DI 231)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":303:3 -1
      (nil))
-(call_insn 496 495 497 48 (call (mem:QI (symbol_ref:DI ("debug_board") [flags 0x3]  <function_decl 0x7ff1a0f5ff00 debug_board>) [0 debug_board S1 A8])
+(call_insn 496 495 497 48 (call (mem:QI (symbol_ref:DI ("debug_board") [flags 0x3]  <function_decl 0x7f75cf7ecf00 debug_board>) [0 debug_board S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":303:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2144,7 +2144,7 @@ try_optimize_cfg iteration 2
 (insn 500 499 501 48 (set (reg:SI 5 di)
         (reg:SI 112 [ row.7_31 ])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":304:3 -1
      (nil))
-(call_insn 501 500 502 48 (call (mem:QI (symbol_ref:DI ("debug_o_pos") [flags 0x3]  <function_decl 0x7ff1a0f64100 debug_o_pos>) [0 debug_o_pos S1 A8])
+(call_insn 501 500 502 48 (call (mem:QI (symbol_ref:DI ("debug_o_pos") [flags 0x3]  <function_decl 0x7f75cf7f1100 debug_o_pos>) [0 debug_o_pos S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":304:3 -1
      (nil)
     (expr_list:SI (use (reg:SI 5 di))
@@ -2160,7 +2160,7 @@ try_optimize_cfg iteration 2
 (insn 503 502 504 48 (set (reg:DI 5 di)
         (reg:DI 232)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":306:3 -1
      (nil))
-(call_insn 504 503 505 48 (call (mem:QI (symbol_ref:DI ("debug_score") [flags 0x3]  <function_decl 0x7ff1a0f64300 debug_score>) [0 debug_score S1 A8])
+(call_insn 504 503 505 48 (call (mem:QI (symbol_ref:DI ("debug_score") [flags 0x3]  <function_decl 0x7f75cf7f1300 debug_score>) [0 debug_score S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":306:3 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2190,7 +2190,7 @@ try_optimize_cfg iteration 2
 (insn 513 512 514 50 (set (reg:DI 5 di)
         (reg:DI 233)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":309:2 -1
      (nil))
-(call_insn 514 513 515 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyTexture") [flags 0x41]  <function_decl 0x7ff1a0f4bf00 SDL_DestroyTexture>) [0 SDL_DestroyTexture S1 A8])
+(call_insn 514 513 515 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyTexture") [flags 0x41]  <function_decl 0x7f75cf7d8f00 SDL_DestroyTexture>) [0 SDL_DestroyTexture S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":309:2 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2202,7 +2202,7 @@ try_optimize_cfg iteration 2
 (insn 516 515 517 50 (set (reg:DI 5 di)
         (reg:DI 234)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":310:2 -1
      (nil))
-(call_insn 517 516 518 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyRenderer") [flags 0x41]  <function_decl 0x7ff1a0f52000 SDL_DestroyRenderer>) [0 SDL_DestroyRenderer S1 A8])
+(call_insn 517 516 518 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyRenderer") [flags 0x41]  <function_decl 0x7f75cf7df000 SDL_DestroyRenderer>) [0 SDL_DestroyRenderer S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":310:2 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
@@ -2214,12 +2214,12 @@ try_optimize_cfg iteration 2
 (insn 519 518 520 50 (set (reg:DI 5 di)
         (reg:DI 235)) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":311:2 -1
      (nil))
-(call_insn 520 519 521 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7ff1a130f400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
+(call_insn 520 519 521 50 (call (mem:QI (symbol_ref:DI ("SDL_DestroyWindow") [flags 0x41]  <function_decl 0x7f75cfb9c400 SDL_DestroyWindow>) [0 SDL_DestroyWindow S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":311:2 -1
      (nil)
     (expr_list:DI (use (reg:DI 5 di))
         (nil)))
-(call_insn 521 520 522 50 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7ff1a0f5fe00 SDL_Quit>) [0 SDL_Quit S1 A8])
+(call_insn 521 520 522 50 (call (mem:QI (symbol_ref:DI ("SDL_Quit") [flags 0x41]  <function_decl 0x7f75cf7ece00 SDL_Quit>) [0 SDL_Quit S1 A8])
         (const_int 0 [0])) "/home/viniciusfaguiar/Documents/C/15-Puzzle/src/main.c":312:2 -1
      (nil)
     (nil))
